@@ -15,6 +15,8 @@ Avaliable currencies:
 - EUR
 - USD
 
+The exchange rates come from a local file.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts:
