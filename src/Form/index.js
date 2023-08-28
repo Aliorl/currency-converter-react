@@ -7,7 +7,7 @@ const Form = () => {
     const [amount, setAmount] = useState("0");
     const [inputCurrency, setInputCurrency] = useState(currencies[0].id);
     const [outputCurrency, setOutputCurrency] = useState(currencies[0].id);
-    const [result, setResult] = useState();
+    const [result, setResult] = useState(null);
 
     const getResult = (currencies, amount, inputCurrency, outputCurrency) => {
         const inputCurrencyRate = currencies.find(({ id }) => id === inputCurrency).rate;

@@ -2,7 +2,7 @@ import "./style.css";
 
 const Result = ({ result }) => (
     <div className="result">Result:
-        {result !== undefined && (
+        {result && (
             <>
                 {result.setAmount.toFixed(2)} {result.inputCurrency} = {""}
                 <strong>
