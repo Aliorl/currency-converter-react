@@ -1,8 +1,8 @@
 .container {
-    max-width: 800px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #f0ffff;
+    background-image: url("pexels-pixabay-164527.jpg");
     box-shadow: 6px 6px 20px #00000099;
   }
   
@@ -11,7 +11,7 @@
     width: 100%;
     resize: both;
     overflow: auto;
-    background-image: url("pexels-pixabay-164527.jpg");
+    background-color: #f0ffff;
     background-size: cover;
     background-repeat: no-repeat;
   }

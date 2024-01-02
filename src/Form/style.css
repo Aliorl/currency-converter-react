@@ -1,14 +1,17 @@
 .form {
     width: 100%;
     max-width: 500px;
-    margin: 10px auto;
+    border-radius: 10px;
+    background-color: #f0ffff;
+    margin: 20px auto;
 }
 
 .form__fieldset {
-    border-radius: 5px;
+    max-width: 400px;
+    color: #4b8198;
     margin: 20px auto;
     padding: 20px;
-    border: 1px solid #4b8198;
+    border-radius: 20px;
 }
 
 .form__legend {
